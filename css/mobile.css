@@ -1,0 +1,110 @@
+/* mobile 600px */
+
+@media screen and (max-width: 600px) {
+    #banner {
+        padding: 0;
+        top: 10%;
+    }
+    #nav-bar .nav-name, 
+    #nav-bar .container div:last-child {
+        display: none;
+    }
+
+    #nav-bar .container .nav-item, 
+    #nav-bar .container {
+        display: block;
+        padding: 10px;
+        border:none;    
+        margin-bottom: 0;
+    }
+    #target, #personal-info {
+        grid-column: 1/-1;
+        padding-left: 30px;
+    }
+
+  
+    #about div.container:first-child {
+        height: 800px;
+    }
+   
+
+    #about div.container div div:first-child {
+        padding-top: 0;
+        padding-bottom: 0;
+    }  
+
+    #job-info .grid-item {
+        padding-bottom: 30px;
+    }
+    #job-info .container .grid-item:first-child {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        
+    } 
+
+    #job-info .container .grid-item:nth-child(2) {
+        grid-column: 1/-1;
+        grid-row:2/3;
+    } 
+
+    #job-info .container .grid-item:nth-child(3) {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+    }
+
+    #job-info .container .grid-item:nth-child(4) {
+        grid-column: 1/-1;
+        grid-row: 4/5;
+    }
+
+    #job-info .container .grid-item:nth-child(5) {
+        grid-column: 1/-1;
+        grid-row: 5/6;
+    }
+    
+    #job-info .container .grid-item:nth-child(6) {
+        grid-column: 1/-1;
+        grid-row:6/7
+    }
+
+    #job-info .container .grid-item .title-info i{
+        font-size: 2rem;
+        text-align: end;
+    }
+    #job-info .container .grid-item .title-info h1 {
+        font-size: 1.4rem;
+    }
+    #job-info .container .grid-item .title-info {
+        padding: 15px 15px;
+        justify-content: center;
+    }
+
+    #certificate .cert-container {
+        display: block;
+    }
+
+    #certificate .cert-item {
+        border: none;
+        padding: 15px;
+        border-bottom: 1px solid #d4ab4a;
+    }
+
+    .cert-title {
+        font-size: 1.8rem;
+        padding-left: 15px;
+    }
+
+    .project-container {
+        display: block;
+        margin: 20px 30px;
+    }
+
+    .project-item {
+        margin-bottom: 50px;
+    }
+
+    #footer ul {
+        padding: 15px;
+        font-size: 90%;
+    }
+}

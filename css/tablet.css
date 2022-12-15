@@ -1,0 +1,77 @@
+/* tablet 900 px */
+
+@media screen and (max-width: 900px) {
+   
+    #nav-bar .container div{
+        width: auto;
+        padding: 0 10px;
+    }
+    .nav-name img{
+        display: none;
+    }
+    #job-info .container {
+        grid-template-columns: 1fr 1fr;
+    }
+   #job-info .container .grid-item:first-child {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    } 
+
+    #job-info .container .grid-item:nth-child(2) {
+        grid-column: 1/2;
+        grid-row: 3/5;
+    } 
+
+    #job-info .container .grid-item:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 5/7;
+    }
+
+    #job-info .container .grid-item:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #job-info .container .grid-item:nth-child(5) {
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+    
+    #job-info .container .grid-item:nth-child(6) {
+        grid-column: 2/3;
+        grid-row: 4/6;
+    }
+
+    #certificate .cert-container {
+        height: auto; 
+        padding-left: 15px;
+    }
+    .cert-item {
+        flex-direction: column;
+        gap: 2rem;
+        align-self: center;
+    }
+    #certificate img {
+        width: 19rem;
+        height: 10rem;
+    }
+    .cert-title {
+        padding: 15px 0;
+    }
+
+    .cert-container .cert-item:nth-child(4){
+        padding: 15px 0;
+    }
+    #project .project-item:nth-child(2) tbody tr:nth-child(3){
+        height: 138px;
+    }
+    #project .project-item:nth-child(4) tbody tr:nth-child(3){
+        height: 85px;
+    }
+
+    #footer ul {
+        padding: 15px;
+        font-size: 90%;
+    }
+    
+} 
